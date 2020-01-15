@@ -123,6 +123,11 @@ img{
     padding: 10px;
     border: 0;
 }
+/* Footer */
+#main-footer{
+    background: #56a79a;
+    color: #fff;
+}
 /* Media Queries */
 @media screen and (max-width:800px){
     #showcase h1{
