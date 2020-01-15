@@ -66,3 +66,15 @@ img{
     padding: 40px;
     opacity: 0.9;
 }
+/* Media Queries */
+@media screen and (max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+        border-radius: 75px;
+    }
+}
