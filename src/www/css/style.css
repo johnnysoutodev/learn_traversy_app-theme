@@ -132,6 +132,19 @@ img{
 #page{
     margin-bottom: 40px;
 }
+/* Services */
+.services ul li{
+    list-style: none;
+    padding: 10px;
+}
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+.services ul li:nth-child(even){
+    background: #56a79a;
+    color: #fff;
+}
 /* Media Queries */
 @media screen and (max-width:800px){
     #showcase h1{
