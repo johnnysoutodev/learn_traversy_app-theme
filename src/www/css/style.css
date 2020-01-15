@@ -12,3 +12,32 @@ img{
 .container{
     margin: auto;
 }
+/* Common Classes */
+.primary-text{
+    color: #56a79a;
+}
+.primary-background{
+    background: #56a79a;
+}
+/* Header */
+#main-header{
+    border-bottom: 1px solid #56a79a;
+}
+/* Navbar */
+#navbar{
+    text-transform: uppercase;
+}
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+#navbar li.current a, #navbar a:hover{
+    color: #56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
