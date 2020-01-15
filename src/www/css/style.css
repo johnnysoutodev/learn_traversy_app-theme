@@ -181,4 +181,8 @@ img{
         padding: 40px 10px;
         border-radius: 75px;
     }
+    #navbar li{
+        padding-right: 10px;
+        font-size: 12px;
+    }
 }
